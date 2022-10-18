@@ -16,7 +16,7 @@
 set -eux
 
 ROCM_TF_FORK_REPO="https://github.com/ROCmSoftwarePlatform/tensorflow-upstream"
-ROCM_TF_FORK_BRANCH="develop-upstream"
+ROCM_TF_FORK_BRANCH="v2.10.0-rc3"
 rm -rf /tmp/tensorflow-upstream || true
 git clone -b ${ROCM_TF_FORK_BRANCH} ${ROCM_TF_FORK_REPO} /tmp/tensorflow-upstream
 
